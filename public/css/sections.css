@@ -1,0 +1,14 @@
+/*footer {
+    background: linear-gradient(var(--black), var(--black2));
+}*/
+body {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+} 
+
+ /*main {
+    padding: 2%;
+ }*/

@@ -1,0 +1,46 @@
+
+.navbar {
+    position: static;
+    padding: 16px 50px;
+    background: #111;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a .logo {
+    height: 100%;
+}
+
+.navbar .nav-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links ul li {
+    margin: 0 25px;
+}
+
+.navbar .nav-links ul li a {
+    text-decoration: none;
+}
+
+.navbar .nav-links ul li.activate a {
+    color: rgb(182, 25, 25);
+    font-weight: 600;
+}
+
+a:hover{
+    color: var(--shine);
+    transition: .4s;
+}
+
+
+
+
+
