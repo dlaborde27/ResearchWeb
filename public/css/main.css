@@ -54,3 +54,12 @@ main div div {
     font-size: 1.3rem;
     word-spacing: 4px;
 }
+
+
+
+#grid {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
